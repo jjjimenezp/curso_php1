@@ -1,3 +1,3 @@
-# curso_php1
+# Curso Avanzado de PHP
 Nombre: José Jiménez
 Profesor: **Ariel Vernaza**

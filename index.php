@@ -1,4 +1,5 @@
 <?php
+requiere '/var/www/html/vendor/autoload.php';
 echo "Conexión a la base de datos";
 $URL = "sql2.freemysqlhosting.net";
 $database = "sql285295";
@@ -23,4 +24,11 @@ while ($row= mysqli_fetch_assoc($result)){
 	$row['descripcion'];
 }
 mysqli_close(conexion);
+$response = Unirest/Request::get
+("https://bestapi-waze-unoffical-free-v1
+	p.mashape.com/addressList?address=universidad+panama",
+	array (
+		"x-Mashape-Key" => "ZA8k3CJvxdmshT0XPS3S6WV6vnfwp1hj5F9jsnNujBw5cKjh2Y,
+		"Accept"=>"application/json"));
+echo $response;
 ?>

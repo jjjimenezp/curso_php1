@@ -7,7 +7,7 @@ $password = "vS3%wL8%";
 $port = "3306";
 // CREAR CONECCION
 $conexion = mysql_connect(            
-	                  $url,
+	                  $URL,
 	                  $usuario,
 	                  $password,
 	                  $database,

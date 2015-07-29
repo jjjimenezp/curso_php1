@@ -13,7 +13,7 @@ $conexion = mysql_connect(
 	                  $database,
 	                  $port);
 if (!$conexion){
-	die (Finalizado la conexion");
+	die ("Finalizado la conexion");
 }
 echo "Conexion exitosa";
 

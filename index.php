@@ -16,4 +16,5 @@ if (!$conexion){
 	die (Finalizado la conexion");
 }
 echo "Conexion exitosa";
-</php>
+
+?>

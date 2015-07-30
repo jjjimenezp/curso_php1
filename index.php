@@ -31,4 +31,12 @@ $response = Unirest\Request::get("https://bestapi-waze-unoffical-free-v1.p.masha
   )
 );
 echo  $response->raw_body;
+// These code snippets use an open-source library. http://unirest.io/php
+$response = Unirest\Request::get("https://bestapi-waze-unoffical-free-v1.p.mashape.com/routes?end=156+5th+Avenue%2C+New+York%2C+NY+10010&start=6+East+57th+Street%2C+New+York%2C+NY+10022",
+  array(
+    "X-Mashape-Key" => "ZA8k3CJvxdmshT0XPS3S6WV6vnfwp1hj5F9jsnNujBw5cKjh2Y",
+    "Accept" => "application/json"
+  )
+);
+echo  $response->raw_body;
 ?>

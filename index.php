@@ -39,7 +39,7 @@ $response = Unirest\Request::get("https://bestapi-waze-unoffical-free-v1.p.masha
   )
 );
 echo  $response->raw_body;
-$response = Unirest\Request::get("https://montanaflynn-dictionary.p.mashape.com/define?word=improvement",
+$response = Unirest\Request::get("https://montanaflynn-dictionary.p.mashape.com/define?word=test",
   array(
     "X-Mashape-Key" => "ZA8k3CJvxdmshT0XPS3S6WV6vnfwp1hj5F9jsnNujBw5cKjh2Y",
     "Accept" => "application/json"

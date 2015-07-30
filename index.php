@@ -1,5 +1,5 @@
 <?php
-requiere __DIR__. '/vendor/autoload.php';
+require __DIR__. '/vendor/autoload.php';
 echo "Conexión a la base de datos";
 $URL = "sql2.freemysqlhosting.net";
 $database = "sql285295";
